@@ -5,7 +5,7 @@
 例如:
 字符串`swift正则使用[em_01][em_02][em_03]`里搜索出`[em_01]`,`[em_02]`,`[em_03]`的位置然后替换成表情
 
-####我们先用`NSRegularExpression`实现
+#### 我们先用`NSRegularExpression`实现
 ```swift
     private func matches1() {
         let string = "swift正则使用[em_01][em_02][em_03]"
